@@ -72,5 +72,4 @@ ENV CLEWDR_AUTO_UPDATE=FALSE
 
 EXPOSE 8484
 
-VOLUME [ "/etc/clewdr" ]
 CMD ["/usr/local/bin/clewdr", "--config", "/etc/clewdr/clewdr.toml", "--log-dir", "/etc/clewdr/log"]
